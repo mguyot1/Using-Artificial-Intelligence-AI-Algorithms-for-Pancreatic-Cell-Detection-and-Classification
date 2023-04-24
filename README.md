@@ -7,4 +7,7 @@ Background: Generally, the pancreas can be broken up into endocrine, exocrine an
 Methods: Whole Slide Images from a control pancreas (n=1) were broken up into Regions of Interest (ROI's) that underwent a binary thresholding step to improve the signal to noise ratio. The binarized image was then laoded into QuPath and segmented. Then, an expert pathologist manually graded ~6000 cells for the training data set. They then manually classified a separate region of interest with ~2000 cells. The validity of each of the algorithm types (ANN, KNN and RT) were checked on the testing data set. 
 ![Workflow](https://user-images.githubusercontent.com/73506962/233518497-f7981b66-ab7b-4f2d-91d8-e8185af59941.png)
 
-Results:
+Results: Each of the classification algorithms were assesed for accuracy, with the confusion matrices shown below.
+<img width="1256" alt="Screen Shot 2023-04-24 at 11 16 12 AM" src="https://user-images.githubusercontent.com/73506962/234040712-bfcd0aed-8bbb-4e93-8b11-190a40800214.png">
+
+
