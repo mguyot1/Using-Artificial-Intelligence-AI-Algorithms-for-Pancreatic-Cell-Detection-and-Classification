@@ -10,4 +10,4 @@ Methods: Whole Slide Images from a control pancreas (n=1) were broken up into Re
 Results: Each of the classification algorithms were assesed for accuracy, with the confusion matrices shown below.
 <img width="1256" alt="Screen Shot 2023-04-24 at 11 16 12 AM" src="https://user-images.githubusercontent.com/73506962/234040712-bfcd0aed-8bbb-4e93-8b11-190a40800214.png">
 
-
+Conclusion: The most accurate algorithm was the Random Trees. This aligns with prior studies as RT are able to be trained on relatively small data sets. 
